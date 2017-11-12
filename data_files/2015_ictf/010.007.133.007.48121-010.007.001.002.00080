@@ -1,0 +1,10 @@
+GET / HTTP/1.1
+Host: 10.7.1.2
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0 Iceweasel/38.4.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+If-Modified-Since: Thu, 03 Dec 2015 04:19:22 GMT
+If-None-Match: "2cf6-525f6b203f6a0-gzip"
+

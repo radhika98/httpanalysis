@@ -1,0 +1,5 @@
+GET / HTTP/1.1
+User-Agent: curl/7.35.0
+Host: 10.7.1.2
+Accept: */*
+

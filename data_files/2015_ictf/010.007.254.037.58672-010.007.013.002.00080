@@ -1,0 +1,10 @@
+POST /fuckapache.cgi/login HTTP/1.1
+User-Agent: Wget/1.17 (linux-gnu)
+Accept: */*
+Accept-Encoding: identity
+Host: 10.7.13.2
+Connection: Keep-Alive
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 25
+
+username=foo&password=bar

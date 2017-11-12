@@ -1,0 +1,6 @@
+GET /viewFile.php?file=access.log HTTP/1.1
+Host: 10.7.1.2
+Accept-Encoding: gzip, deflate, compress
+Accept: */*
+User-Agent: python-requests/2.2.1 CPython/2.7.6 Linux/3.13.0-71-generic
+

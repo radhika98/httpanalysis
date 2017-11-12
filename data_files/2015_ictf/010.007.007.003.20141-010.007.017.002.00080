@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: 10.7.17.2
+Connection: keep-alive
+Cache-Control: max-age=0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36
+DNT: 1
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: en,de;q=0.8,en-US;q=0.6
+If-None-Match: "2cf6-525f6b203f6a0-gzip"
+If-Modified-Since: Thu, 03 Dec 2015 04:19:22 GMT
+
+GET /icons/ubuntu-logo.png HTTP/1.1
+Host: 10.7.17.2
+Connection: keep-alive
+Cache-Control: max-age=0
+Accept: image/webp,image/*,*/*;q=0.8
+If-None-Match: "d4c-5221145d61640"
+If-Modified-Since: Wed, 14 Oct 2015 14:21:05 GMT
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36
+DNT: 1
+Referer: http://10.7.17.2/
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: en,de;q=0.8,en-US;q=0.6
+
