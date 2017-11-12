@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+User-Agent: w3m/0.5.3+debian-15
+Accept: text/html, text/*;q=0.5, image/*, application/*
+Accept-Encoding: gzip, compress, bzip, bzip2, deflate
+Accept-Language: en;q=1.0
+Host: 10.7.1.2
+
