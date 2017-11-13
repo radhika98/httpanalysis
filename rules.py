@@ -18,8 +18,11 @@ def countRuleLengths(ruleset):
 		while len(ruleCounts) <= len(rule):
 		  ruleCounts.append(0)
 		ruleCounts[len(rule)] += 1 
+	grouped_counts = []
+	for x in range(1, len(ruleCounts), 10):
+		grouped_counts.append(sum(ruleCounts[x:x+10]))
 	    
-	return ruleCounts
+	return grouped_counts
 
 #Split a given string into all of it's n-sized tokens
 def tokenizeString(input_string, n):
@@ -48,4 +51,4 @@ with open("rules.txt", "wt") as f:
 	rule_results = getRules("http_rules.txt")
 	rule_counts = countRuleLengths(rule_results)
 	for i in range(1, len(rule_counts)):
-		f.write("%d rules with length of %d \n" %(rule_counts[i], i))
+		f.write("%d rules with length of %d-%d \n" %(rule_counts[i], ((i-1)*10)+1, i*10 ))
